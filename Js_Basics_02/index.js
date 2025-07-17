@@ -1,6 +1,6 @@
 console.log('hey');
 
-// object 
+// object now learning
  
 // const rectangle = {
 //     length : 5,
