@@ -36,3 +36,21 @@
 // x = 'a';
 
 // console.log(x);
+
+
+// function sum() {
+//     let total = 0;
+//     for(let value of arguments) 
+//         total = total + value;
+//     return total;
+// }
+
+// // console.log(sum(1,2));
+// //console.log(sum(1));
+// // console.log(sum());
+// //console.log(sum(1,2,,3,4,5));
+
+// let ans = sum(1,2,2,3);
+// console.log(ans);
+
+
