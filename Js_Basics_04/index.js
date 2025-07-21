@@ -53,4 +53,12 @@
 // let ans = sum(1,2,2,3);
 // console.log(ans);
 
+// Rest operator
+
+function sum(num, value , ...args){
+    console.log(args);
+}
+
+sum(1,2,3,4,5,5,6,6,7,7);
+
 
