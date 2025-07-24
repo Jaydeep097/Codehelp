@@ -55,10 +55,17 @@
 
 // Rest operator
 
-function sum(num, value , ...args){
-    console.log(args);
+// function sum(num, value , ...args){
+//     console.log(args);
+// }
+
+// sum(1,2,3,4,5,5,6,6,7,7);
+
+
+
+// Default parameters
+
+function interest(p,r,y){
+    return p*r*y/100 ;
 }
-
-sum(1,2,3,4,5,5,6,6,7,7);
-
-
+console.log(interest(1000,33,6));
