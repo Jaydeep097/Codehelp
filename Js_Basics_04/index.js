@@ -153,3 +153,58 @@ catch (e) {
 
 
 console.log(person.fullName);
+
+
+// {
+//     var a = 5;
+// }
+// console.log(a);
+
+// function walk() {
+//     var a = 5;
+// }
+
+// console.log(a);
+
+// for(var i = 0; i<10; i++) {
+
+// }
+
+// console.log(i);
+
+// if(true) {
+//     var a = 5;
+// }
+
+// console.log(a);
+
+// function a() {
+//     const ab  = 5;
+// }
+// const ab = 5;
+// function b() {
+//     const ab = 5;
+// }
+
+//sorting 
+// let a = [10,5,4,25];
+
+// a.sort(function(a,b) {
+//     return a-b;
+// });
+
+// console.log(a);
+
+let arr = [-1,-2,-3,-4];
+// let total = 0;
+
+// for(let value of arr) 
+//     total = total + value;
+
+// console.log(total);
+
+
+let totalSum = arr.reduce((accumulator, currentValue) => accumulator + currentValue);
+
+console.log("PRINTING TOTAL SUM:")
+console.log(totalSum);
