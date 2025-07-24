@@ -178,6 +178,10 @@ console.log(person.fullName);
 
 // console.log(a);
 
+
+
+// Scope 
+
 // function a() {
 //     const ab  = 5;
 // }
@@ -185,6 +189,9 @@ console.log(person.fullName);
 // function b() {
 //     const ab = 5;
 // }
+
+
+
 
 //sorting 
 // let a = [10,5,4,25];
@@ -195,6 +202,10 @@ console.log(person.fullName);
 
 // console.log(a);
 
+
+
+// Reduce
+
 let arr = [-1,-2,-3,-4];
 // let total = 0;
 
@@ -203,6 +214,7 @@ let arr = [-1,-2,-3,-4];
 
 // console.log(total);
 
+// reducing an array with reduce function
 
 let totalSum = arr.reduce((accumulator, currentValue) => accumulator + currentValue);
 
