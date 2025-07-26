@@ -13,9 +13,12 @@
 // })
 
 let links = document.querySelectorAll('a');
-let thirdLink = links[2];
 
-thirdLink.addEventListener('click', function(event) {
+let thirdLink =  links[2];
+
+thirdLink.addEventListener('click', function(event){
     event.preventDefault();
-    console.log('maza aaya, accha laga');
+    console.log('thik hai acha laga');
+
 });
+
