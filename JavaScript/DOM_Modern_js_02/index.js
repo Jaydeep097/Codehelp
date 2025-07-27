@@ -30,22 +30,26 @@
 
 
 
-let myDiv =  document.createElement('div');
+// let myDiv =  document.createElement('div');
 
-function paraStatus(event){
-        console.log('clicked on para ' + event.target.textContent );
-    }
+// function paraStatus(event){
+//         console.log('clicked on para ' + event.target.textContent );
+//     }
   
-   myDiv.addEventListener('click', paraStatus);
+//    myDiv.addEventListener('click', paraStatus);
 
-for (let i=1; i <=100; i++ ){
-    let newElement = document.createElement('p');
-    newElement.textContent = 'THIS IS PARA ' + i;
+// for (let i=1; i <=100; i++ ){
+//     let newElement = document.createElement('p');
+//     newElement.textContent = 'THIS IS PARA ' + i;
 
 
-    myDiv.appendChild(newElement);
-}
-document.body.appendChild(myDiv);
+//     myDiv.appendChild(newElement);
+// }
+// document.body.appendChild(myDiv);
 
 
  
+let element = document.querySelector('#wrapper');
+element.addEventListener('click', function(event){
+    console.log('span par click kiya hai' + event.target.textContent );
+});
