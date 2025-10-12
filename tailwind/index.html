@@ -4,15 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./src/output.css" rel="stylesheet" />
-    <title>Tailwind project</title>
+    <title>Razorpay</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li class="mx-4 bg-orange-500">home</li>
-        <li class="mx-4 bg-white">project</li>
-        <li class="mx-4 bg-green-500">contact us</li>
-      </ul>
+
+
+    
+    <nav class="bg-[rgb(6,8,23)]">
+      <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+
+      <!-- logo -->
+       <a href="/" class="cursor-pointer py-7 pr-7">
+        <img
+          src="./images/razor.png"
+          width="125px"
+          height="30px" />
+       </a>
+
+       <ul class="flex gap-6 text-xl">
+          <li class="text-white py-7 hover:text-blue-300 cursor-pointer  transition-all duration-200 relative group">
+
+              <a href="#" >Payment</a>
+
+            <div class="absolute bottom-0 w-full h-1  bg-blue-400 hidden group-hover:block "></div>
+
+          </li>
+
+          <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+
+              <a href="#" >Banking</a>
+
+            <div class="absolute bottom-0 w-full h-1  bg-blue-400 hidden group-hover:block "></div>
+
+          </li>
+
+          <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+
+              <a href="#" >Corporatee Card</a>
+
+            
+
+          </li>
+          <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+
+              <a href="#" >Payroll</a>
+
+          </li>
+          <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+
+              <a href="#" >Resources</a>
+
+            <div class="absolute bottom-0 w-full h-1  bg-blue-400 hidden group-hover:block "></div>
+
+          </li>
+          <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+
+              <a href="#" >Support</a>
+
+            <div class="absolute bottom-0 w-full h-1  bg-blue-400 hidden group-hover:block "></div>
+
+          </li>
+          <li class="text-white py-7 hover:text-blue-300 cursor-pointer transition-all duration-200 relative group">
+
+              <a href="#" >Pricing</a>
+
+            <div class="absolute bottom-0 w-full h-1  bg-blue-400 hidden group-hover:block "></div>
+
+          </li>
+       </ul>
+       <!--flag-->
+       <div class="flex items-center space-x-6">
+        <img
+           src="./images/flag.png"
+           width="30px"
+           height="10px"
+              />
+
+           <button class="py-3 px-5 cursor-pointer text-white border-blue-400  border rounded-sm font-bold  ">Log in</button>
+
+           <button class="py-3 px-4 cursor-pointer bg-white  border rounded-sm font-bold text-blue-300 hover:text-blue-900  ">sign up</button>
+
+       </div>
+
+      </div>
     </nav>
   </body>
 </html>

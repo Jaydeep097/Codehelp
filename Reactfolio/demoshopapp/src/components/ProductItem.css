@@ -1,0 +1,25 @@
+/* Individual cyan card */
+.product-item {
+	display: flex;
+	align-items: center;
+	background: #00eaff; /* cyan */
+	border-radius: 12px;
+	padding: 16px 18px;
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.product-item__description {
+	margin-left: 18px;
+	margin-right: 10px;
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+.product-item__description h2 {
+	margin: 0 0 0 auto; /* push title to right side */
+	color: #e51414; /* red title */
+	font-weight: 700;
+	font-size: 28px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2), 0 3px 6px rgba(0,0,0,0.25);
+}

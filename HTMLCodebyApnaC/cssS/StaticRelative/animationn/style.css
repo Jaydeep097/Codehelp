@@ -1,0 +1,17 @@
+div {
+    background-color: greenyellow;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    transition-property: all;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    transform: rotate(45deg);
+}
+
+div:hover {
+    background-color: red;
+    
+
+}

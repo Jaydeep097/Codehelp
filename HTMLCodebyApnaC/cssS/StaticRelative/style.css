@@ -1,0 +1,37 @@
+
+div{
+  height: 100px;
+  width: 100px;
+  border: 1.5px solid black;
+  display: inline-block;
+}
+
+
+#container {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+  
+}
+
+#box1{
+  background-image: url(download.jpg);
+  background-size: cover;
+}
+#box2{
+  background-color: lightblue;
+}
+
+#box3{
+  background-color: lightcoral;
+}
+
+#box4{
+  background-color: lightgreen;
+}
+
+#box5{
+  background-color: lightyellow;
+}

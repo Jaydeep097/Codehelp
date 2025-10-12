@@ -12,6 +12,8 @@ console.log('hey');
 // };
 
 
+
+
 // factory function
   
 // function createRectangle(len,bre) {
@@ -138,7 +140,7 @@ console.log('hey');
 
 console.log('Chaliye shuru karte hai ');
 
-//object create
+// object create
 // let rectangle = {
 //     length: 1,
 //     breadth: 2,
@@ -148,28 +150,49 @@ console.log('Chaliye shuru karte hai ');
 //     }
 // };
 
+
+
+let rectangle = {
+    length: 1,
+    breadth : 2,
+
+    draw : function() {
+        console.log('drawing rectangle');
+    }
+
+};
+
+console.log(rectangle.draw)
+   
 //factory function 
 
-// function createRectangle(len, bre) {
+function createRectangle(len, bre) {
 
-//     const rectangle = {
-//         length: len,
-//         breadth:bre ,
+    const rectangle = {
+        length: len,
+        breadth: bre,
 
-//         draw() {
-//             console.log('drawing rectangle');
-//         }
-// //     };
-//     return rectangle;
-// }
+        draw() {
+            console.log('drawing rectangle');
+        }
+    };
+    
+    return rectangle;
+}
 
-// let rectangleObj1 = createRectangle(5, 4);
+let rectangleObj1 = createRectangle(5, 4);   // isme obj1 ke undar humne createrectangle ko return kardiya hai
 // let rectangle2 = createRectangle(2,3);
 // let rectangle3 = createRectangle(7,9);
+
+
+
+
 
 //Camelcase -> numberOfStudents
 //constructor function -> Pascal Notation -> first letter of every word is Capital -> NumberOfStudents
 //constructor function -> prop/methods -> intialise/Define
+
+
 // function Rectangle(len, bre) {
 //     this.length = len;
 //     this.breadth = bre;
@@ -178,7 +201,6 @@ console.log('Chaliye shuru karte hai ');
 //     }
 // }
 
-// Rectangle.
 
 // //object creation using constrcutor function
 // let rectangleObject = new Rectangle(4,6);
@@ -266,10 +288,10 @@ console.log('Chaliye shuru karte hai ');
 
 // console.log(a.value);
 
-let rectangle = {
-    length:2,
-    breadth:4
-};
+// let rectangle = {
+//     length:2,
+//     breadth:4
+// };
 
 //for-in loop 
 // for(let key in rectangle ) {
@@ -325,6 +347,8 @@ let rectangle = {
 // src.a++;
 
 // console.log(dest);
+
+
 
 //Object Cloning #3
 // let src = {
